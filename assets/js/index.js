@@ -254,7 +254,6 @@ var ecommerceProjects = document.querySelectorAll(
 );
 
 function viewTabs(element) {
-  // 1- اخفي الكل (animation out)
   for (var i = 0; i < allProjects.length; i++) {
     allProjects[i].style.transition = "opacity 0.3s, transform 0.3s";
     allProjects[i].style.opacity = "0";
